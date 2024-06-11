@@ -31,7 +31,7 @@ fun CategoryDetailScreen(category: Category) {
             text = category.strCategory,
             textAlign = TextAlign.Center,
             fontStyle = FontStyle.Italic,
-            fontWeight = FontWeight.Bold ,
+            fontWeight = FontWeight.Bold,
             fontSize = 24.sp
         )
         Image(

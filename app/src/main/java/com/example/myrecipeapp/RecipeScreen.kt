@@ -75,8 +75,8 @@ fun CategoryItem(category: Category, navigateToDetail: (Category) -> Unit) {
     ) {
 
         Image(
-            //i have added dependency for this rememberAsyncImagePainter. It make image loading very
-            // simple it takes url(here category.strCategoryThumb) and render image on our screen based on url
+            /*i have added dependency for this rememberAsyncImagePainter. It make image loading very
+             simple it takes url(here category.strCategoryThumb) and render image on our screen based on url*/
             painter = rememberAsyncImagePainter(category.strCategoryThumb),
             contentDescription = null,
             modifier = Modifier
